@@ -1,0 +1,31 @@
+{
+    "name": "kianisanaullah/social_media",
+    "description": "A social media tool kit using laravel and livewire",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Kianisanaullah\\SocialMedia\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sanaullah Kiani",
+            "email": "kianisanaullah@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+
+    },
+    "autoload-dev": {
+
+    },
+    "scripts": {
+        "test": "pest"
+    },
+    "config": {
+
+    }
+}
