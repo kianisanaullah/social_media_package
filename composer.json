@@ -2,6 +2,8 @@
     "name": "kianisanaullah/social_media",
     "description": "A social media tool kit using laravel and livewire",
     "type": "package",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Kianisanaullah\\SocialMedia\\": "src/"
