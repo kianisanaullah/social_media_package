@@ -1,7 +1,7 @@
 {
     "name": "kianisanaullah/social_media",
     "description": "A social media tool kit using laravel and livewire",
-    "type": "package", 
+    "type": "package",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
