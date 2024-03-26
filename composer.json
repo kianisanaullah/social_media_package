@@ -1,7 +1,7 @@
 {
     "name": "kianisanaullah/social_media",
-    "description": "A social media tool kit using laravel and livewire",
-    "type": "package",
+    "description": "A social media tool kit using Laravel and Livewire",
+    "type": "library",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
@@ -28,6 +28,10 @@
         "test": "pest"
     },
     "config": {
-
+        "laravel": {
+            "providers": [
+                "Kianisanaullah\\SocialMedia\\ServiceProvider"
+            ]
+        }
     }
 }
