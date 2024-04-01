@@ -1,13 +1,24 @@
 {
     "name": "kianisanaullah/social_media",
     "description": "A social media tool kit using Laravel and Livewire",
+    "keywords": [
+        "laravel",
+        "laravel-package",
+        "social-media",
+        "livewire"
+    ],
+    "homepage": "https://github.com/kianisanaullah/social_media",
+    "license": "MIT",
     "type": "library",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Kianisanaullah\\SocialMedia\\": "src/"
-        }
+        },
+        "files": [
+            "src"
+        ]
     },
     "authors": [
         {
@@ -32,6 +43,17 @@
             "providers": [
                 "Kianisanaullah\\SocialMedia\\ServiceProvider"
             ]
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kianisanaullah\\SocialMedia\\ServiceProvider"
+            ],
+            "aliases": {
+                "SocialMedia": "Kianisanaullah\\SocialMedia\\ServiceProvider"
+            }
         }
     }
 }
